@@ -7,12 +7,12 @@ const WedData = [
   { id: 6, data: "Referall Scheme", link: "#" },
 ];
 const divIds = [
-  { id: "#Break", name: "Break" },
-  { id: "#Choose", name: "Choose" },
-  { id: "#StatPage", name: "StatPage" },
+  { id: "#Break", name: "Get Started" },
+  { id: "#Choose", name: "Why Choose Us" },
+  { id: "#StatPage", name: "How It Works" },
   { id: "#Pricing", name: "Pricing" },
   { id: "#Reviews", name: "Reviews" },
-  { id: "#Platforms", name: "Platforms" },
+  { id: "#Platforms", name: "Work Platforms" },
   { id: "#FAQs", name: "FAQs" },
 ];
 const animationData = [
