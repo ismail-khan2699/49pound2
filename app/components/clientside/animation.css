@@ -1,0 +1,25 @@
+
+
+.texts{
+  
+    position: relative;
+}
+
+.texts::before {
+    content: "";
+    height: 50px;
+    width: 2px;
+    position: absolute;
+    right: -8px;
+    background: #000;
+    transform: translateY(-15%);
+    animation: blink 0.7s infinite;
+}
+
+.texts.stop-blinking::before {
+    animation: none;
+}
+
+@keyframes blink {
+    50% { opacity: 0 }
+}
